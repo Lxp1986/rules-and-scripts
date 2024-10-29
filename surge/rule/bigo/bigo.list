@@ -1,13 +1,16 @@
-# NAME: bybit
-# AUTHOR: Lxp1986
-# UPDATED: 2024-10-25
-DOMAIN-SUFFIX,boho.com
-DOMAIN-SUFFIX,bigo.tv
-DOMAIN-SUFFIX,cdn.bigo.tv
-DOMAIN-SUFFIX,bigo.sg
-DOMAIN-SUFFIX,cdn.bigo.sg
-DOMAIN-SUFFIX,cdn.bigo.us
-DOMAIN-KEYWORD,bigo
-DOMAIN-KEYWORD,bigolive
-USER-AGENT,BIGO*
-USER-AGENT,BIGOLIVE*
+# Bigolive 代理規則（無指定代理，手動選擇）
+DOMAIN-SUFFIX,bigovideo.tv,no-resolve
+DOMAIN-SUFFIX,bigo.sg,no-resolve
+DOMAIN-SUFFIX,bigo.tv,no-resolve
+DOMAIN-SUFFIX,bigousers.com,no-resolve
+DOMAIN-SUFFIX,like.video,no-resolve
+DOMAIN-SUFFIX,likee.video,no-resolve
+
+# API 與相關資源
+DOMAIN-SUFFIX,bigolivehost.com,no-resolve
+DOMAIN-SUFFIX,bigovideo.vip,no-resolve
+DOMAIN-SUFFIX,bigo.tv,no-resolve
+
+# TCP/UDP 規則（如有需要）
+IP-CIDR,161.189.0.0/16,no-resolve
+IP-CIDR,47.246.0.0/16,no-resolve
