@@ -1,0 +1,26 @@
+# PUBG MOBILE 代理規則
+DOMAIN-SUFFIX,pubgmobile.com,proxy
+DOMAIN-SUFFIX,igamecj.com,proxy
+DOMAIN-SUFFIX,qcloud.com,proxy
+DOMAIN-SUFFIX,bugly.qq.com,proxy
+DOMAIN-SUFFIX,proximabeta.com,proxy
+DOMAIN-SUFFIX,pg.qq.com,proxy
+DOMAIN-SUFFIX,gamecenter.qq.com,proxy
+DOMAIN-SUFFIX,tencentgames.helpshift.com,proxy
+DOMAIN-SUFFIX,igamec.net,proxy
+DOMAIN-SUFFIX,ksmobile.net,proxy
+DOMAIN-SUFFIX,gcloud.qq.com,proxy
+
+# 常見 TCP/UDP IP 段
+IP-CIDR,203.205.0.0/16,proxy
+IP-CIDR,182.254.0.0/16,proxy
+IP-CIDR,52.83.0.0/16,proxy
+IP-CIDR,47.246.0.0/16,proxy
+
+# 支援工具及更新服務
+DOMAIN-SUFFIX,updates.control.igamecj.com,proxy
+DOMAIN-SUFFIX,pubgm.bf.igamec.net,proxy
+DOMAIN-SUFFIX,gcloud.com,proxy
+
+# 全局或選擇性代理
+USER-AGENT,PUBG*.*,proxy
