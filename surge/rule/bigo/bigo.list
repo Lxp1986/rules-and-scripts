@@ -1,16 +1,30 @@
-# Bigolive 代理規則（無指定代理，手動選擇）
-DOMAIN-SUFFIX,bigovideo.tv,no-resolve
-DOMAIN-SUFFIX,bigo.sg,no-resolve
-DOMAIN-SUFFIX,bigo.tv,no-resolve
-DOMAIN-SUFFIX,bigousers.com,no-resolve
-DOMAIN-SUFFIX,like.video,no-resolve
-DOMAIN-SUFFIX,likee.video,no-resolve
+# Bigolive 相關域名
+DOMAIN-SUFFIX,bigo.tv
+DOMAIN-SUFFIX,bigovideo.tv
+DOMAIN-SUFFIX,bigo.sg
+DOMAIN-SUFFIX,bigousers.com
+DOMAIN-SUFFIX,bigolivehost.com
+DOMAIN-SUFFIX,bigovideo.vip
+DOMAIN-SUFFIX,like.video
+DOMAIN-SUFFIX,likee.video
 
-# API 與相關資源
-DOMAIN-SUFFIX,bigolivehost.com,no-resolve
-DOMAIN-SUFFIX,bigovideo.vip,no-resolve
-DOMAIN-SUFFIX,bigo.tv,no-resolve
+# API 與資源伺服器
+DOMAIN-SUFFIX,bigovcdn.com
+DOMAIN-SUFFIX,bigosearch.com
+DOMAIN-SUFFIX,bigoeng.com,proxy
+DOMAIN-SUFFIX,bigolivemall.com
+DOMAIN-SUFFIX,bigocdn.me
 
-# TCP/UDP 規則（如有需要）
-IP-CIDR,161.189.0.0/16,no-resolve
-IP-CIDR,47.246.0.0/16,no-resolve
+# 特定 IP 規則（Bigolive CDN 伺服器）
+IP-CIDR,161.189.0.0/16
+IP-CIDR,47.246.0.0/16
+IP-CIDR,123.60.0.0/16
+
+# 自動代理判斷
+DOMAIN-KEYWORD,bigo
+
+# 加強代理規則 (其他可能相關嘅 IP 段)
+IP-CIDR,103.80.0.0/16
+IP-CIDR,120.52.0.0/16
+IP-CIDR,104.193.88.0/21
+IP-CIDR,149.28.0.0/16
