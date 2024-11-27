@@ -11,7 +11,9 @@ DOMAIN-SUFFIX,bybit.biz
 DOMAIN-SUFFIX,bitverse.zone
 DOMAIN-SUFFIX,byapps.net
 DOMAIN-SUFFIX,bybdc6.com
+DOMAIN-SUFFIX,ws2.bybdc6.com
 DOMAIN-SUFFIX,byabcde.com
+DOMAIN-SUFFIX,ws2.byabcde.com
 DOMAIN-SUFFIX,byd3c3.com
 DOMAIN-SUFFIX,byapps.net
 DOMAIN-SUFFIX,bybit.cloud
@@ -25,4 +27,5 @@ DOMAIN-KEYWORD,bybdc
 DOMAIN-KEYWORD,byb
 DOMAIN-KEYWORD,bitverse
 DOMAIN-KEYWORD,bycsi
+DOMAIN-KEYWORD,byabcde
 USER-AGENT,BYBIT*
