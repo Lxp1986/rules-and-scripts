@@ -52,5 +52,5 @@ DOMAIN-SUFFIX,gcdsdk.appsflyer.com
 DOMAIN-KEYWORD,gateio
 DOMAIN-KEYWORD,csrqoa
 DOMAIN-KEYWORD,gateweb3
-USER-AGENT,*gateio*
-USER-AGENT,*csrqoa*
+USER-AGENT,gateio*
+USER-AGENT,csrqoa*
