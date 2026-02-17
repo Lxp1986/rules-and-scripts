@@ -1,6 +1,5 @@
-# NAME: bybit
-# AUTHOR: Lxp1986
-# UPDATED: 2026-02-17
+# Canonical source for Bybit rules.
+# Keep one rule per line using DOMAIN-* / USER-AGENT syntax.
 DOMAIN-SUFFIX,bybit.com
 DOMAIN-SUFFIX,www.bybit.com
 DOMAIN-SUFFIX,sg.bybit.com

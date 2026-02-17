@@ -1,8 +1,20 @@
 # NAME: gate
+# AUTHOR: Lxp1986
+# UPDATED: 2026-02-17
+DOMAIN-SUFFIX,gate.com
+DOMAIN-SUFFIX,gate.io
+DOMAIN-SUFFIX,gateio.ws
+DOMAIN-SUFFIX,gateio.io
+DOMAIN-SUFFIX,gateio.im
+DOMAIN-SUFFIX,api.gateio.ws
+DOMAIN-SUFFIX,api-testnet.gateio.ws
+DOMAIN-SUFFIX,fx-api.gateio.ws
+DOMAIN-SUFFIX,fx-api-testnet.gateio.ws
+DOMAIN-SUFFIX,ws.gate.io
+DOMAIN-SUFFIX,ws.gateio.io
 DOMAIN-SUFFIX,app-analytics-services.com
 DOMAIN-SUFFIX,dapp.gateio.services
 DOMAIN-SUFFIX,gateio.services
-DOMAIN-SUFFIX,app-analytics-services.com
 DOMAIN-SUFFIX,web3-wallet-service-prod.gateweb3.cc
 DOMAIN-SUFFIX,gateweb3.cc
 DOMAIN-SUFFIX,app-spot-ws.csrqoa.com
@@ -38,8 +50,6 @@ DOMAIN-SUFFIX,icense.vod-pro.com
 DOMAIN-SUFFIX,skadsdk.appsflyer.com
 DOMAIN-SUFFIX,app-fx-api.panpno.com
 DOMAIN-SUFFIX,keep.pushcloud.net
-DOMAIN-SUFFIX,snssdk.gatedata.org
-DOMAIN-SUFFIX,dapp.gateio.services
 DOMAIN-SUFFIX,snssdk.gatedata.org
 DOMAIN-SUFFIX,web3-backup.gateio.services
 DOMAIN-SUFFIX,web3-app.chain-api.services

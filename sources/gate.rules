@@ -1,6 +1,5 @@
-# NAME: gate
-# AUTHOR: Lxp1986
-# UPDATED: 2026-02-17
+# Canonical source for Gate rules.
+# Keep one rule per line using DOMAIN-* / USER-AGENT syntax.
 DOMAIN-SUFFIX,gate.com
 DOMAIN-SUFFIX,gate.io
 DOMAIN-SUFFIX,gateio.ws
