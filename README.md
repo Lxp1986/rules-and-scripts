@@ -11,30 +11,19 @@
 
 - `sources/`：规则单一来源（只维护这里）
 - `scripts/sync_rules.sh`：从 `sources/` 生成各平台规则
-- `surge/rule/`：Surge 规则
+- `surge/`：Surge 规则
 - `clash/`：Clash 规则（YAML provider 格式）
 - `qx/`：Quantumult X 规则
-- `shadowrocket/rule/`：Shadowrocket 规则
-- `loon/rule/`：Loon 规则
+- `shadowrocket/`：Shadowrocket 规则
+- `loon/`：Loon 规则
 - `scripts/stash/`：Stash 脚本与示例
 
-## 规则订阅地址
-
-### Bybit
-- Surge: `https://raw.githubusercontent.com/Lxp1986/rules-and-scripts/refs/heads/master/surge/rule/bybit/bybit.list`
-- Loon: `https://raw.githubusercontent.com/Lxp1986/rules-and-scripts/refs/heads/master/loon/rule/bybit/bybit.list`
-- Clash: `https://raw.githubusercontent.com/Lxp1986/rules-and-scripts/refs/heads/master/clash/Bybit.yaml`
-- Quantumult X: `https://raw.githubusercontent.com/Lxp1986/rules-and-scripts/refs/heads/master/qx/bybit.list`
-
-### Gate
-- Surge: `https://raw.githubusercontent.com/Lxp1986/rules-and-scripts/refs/heads/master/surge/rule/gate/gate.list`
-- Loon: `https://raw.githubusercontent.com/Lxp1986/rules-and-scripts/refs/heads/master/loon/rule/gate/gate.list`
-- Clash: `https://raw.githubusercontent.com/Lxp1986/rules-and-scripts/refs/heads/master/clash/gate.yaml`
-- Quantumult X: `https://raw.githubusercontent.com/Lxp1986/rules-and-scripts/refs/heads/master/qx/gate.list`
-- Shadowrocket: `https://raw.githubusercontent.com/Lxp1986/rules-and-scripts/refs/heads/master/shadowrocket/rule/gate/gate.list`
-
-### Apple Arcade (Loon)
-- Loon: `https://raw.githubusercontent.com/Lxp1986/rules-and-scripts/refs/heads/master/loon/rule/apple/apple_arcade.list`
+各平台具体规则订阅链接请看对应目录里的 `README.md`：
+- `surge/README.md`
+- `clash/README.md`
+- `qx/README.md`
+- `shadowrocket/README.md`
+- `loon/README.md`
 
 ## 维护方式（重要）
 

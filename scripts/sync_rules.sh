@@ -64,13 +64,13 @@ write_qx_list() {
   normalize_rules "$src" | sed -e 's/^DOMAIN-SUFFIX,/HOST-SUFFIX,/' -e 's/^DOMAIN-KEYWORD,/HOST-KEYWORD,/' >> "$out"
 }
 
-write_surge_list "$BYBIT_SRC" "$ROOT_DIR/surge/rule/bybit/bybit.list" "bybit"
-write_surge_list "$GATE_SRC" "$ROOT_DIR/surge/rule/gate/gate.list" "gate"
+write_surge_list "$BYBIT_SRC" "$ROOT_DIR/surge/bybit.list" "bybit"
+write_surge_list "$GATE_SRC" "$ROOT_DIR/surge/gate.list" "gate"
 
-write_surge_list "$GATE_SRC" "$ROOT_DIR/shadowrocket/rule/gate/gate.list" "gate"
-write_surge_list "$BYBIT_SRC" "$ROOT_DIR/loon/rule/bybit/bybit.list" "bybit"
-write_surge_list "$GATE_SRC" "$ROOT_DIR/loon/rule/gate/gate.list" "gate"
-write_surge_list "$APPLE_ARCADE_SRC" "$ROOT_DIR/loon/rule/apple/apple_arcade.list" "apple_arcade"
+write_surge_list "$GATE_SRC" "$ROOT_DIR/shadowrocket/gate.list" "gate"
+write_surge_list "$BYBIT_SRC" "$ROOT_DIR/loon/bybit.list" "bybit"
+write_surge_list "$GATE_SRC" "$ROOT_DIR/loon/gate.list" "gate"
+write_surge_list "$APPLE_ARCADE_SRC" "$ROOT_DIR/loon/apple_arcade.list" "apple_arcade"
 
 write_qx_list "$BYBIT_SRC" "$ROOT_DIR/qx/bybit.list" "bybit"
 write_qx_list "$GATE_SRC" "$ROOT_DIR/qx/gate.list" "gate"
