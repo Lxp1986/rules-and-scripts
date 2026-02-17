@@ -18,12 +18,16 @@
 - `loon/`：Loon 规则
 - `scripts/stash/`：Stash 脚本与示例
 
-各平台具体规则订阅链接请看对应目录里的 `README.md`：
-- `surge/README.md`
-- `clash/README.md`
-- `qx/README.md`
-- `shadowrocket/README.md`
-- `loon/README.md`
+各平台规则按“每条规则一个子目录”组织：
+- `surge/`
+- `clash/`
+- `qx/`
+- `shadowrocket/`
+- `loon/`
+
+每条规则目录内均包含：
+- 规则文件（`.list` 或 `.yaml`）
+- `README.md`（该规则订阅链接）
 
 ## 维护方式（重要）
 

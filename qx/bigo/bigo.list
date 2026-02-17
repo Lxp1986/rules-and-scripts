@@ -1,0 +1,24 @@
+# NAME: bigo
+# AUTHOR: Lxp1986
+# UPDATED: 2026-02-17
+HOST-SUFFIX,bigo.tv
+HOST-SUFFIX,bigovideo.tv
+HOST-SUFFIX,bigo.sg
+HOST-SUFFIX,bigousers.com
+HOST-SUFFIX,bigolivehost.com
+HOST-SUFFIX,bigovideo.vip
+HOST-SUFFIX,like.video
+HOST-SUFFIX,likee.video
+HOST-SUFFIX,bigovcdn.com
+HOST-SUFFIX,bigosearch.com
+HOST-SUFFIX,bigoeng.com
+HOST-SUFFIX,bigolivemall.com
+HOST-SUFFIX,bigocdn.me
+HOST-KEYWORD,bigo
+IP-CIDR,161.189.0.0/16
+IP-CIDR,47.246.0.0/16
+IP-CIDR,123.60.0.0/16
+IP-CIDR,103.80.0.0/16
+IP-CIDR,120.52.0.0/16
+IP-CIDR,104.193.88.0/21
+IP-CIDR,149.28.0.0/16

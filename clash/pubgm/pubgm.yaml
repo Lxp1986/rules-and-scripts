@@ -1,0 +1,37 @@
+# NAME: pubgm
+# AUTHOR: Lxp1986
+# UPDATED: 2026-02-17
+
+rules:
+  - DOMAIN-SUFFIX,pubgmobile.com
+  - DOMAIN-SUFFIX,igamecj.com
+  - DOMAIN-SUFFIX,igamec.net
+  - DOMAIN-SUFFIX,gpubgm.com
+  - DOMAIN-SUFFIX,qcloud.com
+  - DOMAIN-SUFFIX,gcloud.qq.com
+  - DOMAIN-SUFFIX,qos.game.qq.com
+  - DOMAIN-SUFFIX,pg.qq.com
+  - DOMAIN-SUFFIX,gamecenter.qq.com
+  - DOMAIN-SUFFIX,vmp.qq.com
+  - DOMAIN-SUFFIX,bugly.qq.com
+  - DOMAIN-SUFFIX,proximabeta.com
+  - DOMAIN-SUFFIX,ksmobile.net
+  - DOMAIN-SUFFIX,pubgmobile.helpshift.com
+  - DOMAIN-SUFFIX,tencentgames.helpshift.com
+  - DOMAIN-SUFFIX,ig-us-notice.igamecj.com
+  - DOMAIN-SUFFIX,ig-us-sdkapi.igamecj.com
+  - DOMAIN-SUFFIX,pay.igamecj.com
+  - DOMAIN-SUFFIX,api.club.gpubgm.com
+  - DOMAIN-SUFFIX,cdn.club.gpubgm.com
+  - DOMAIN-SUFFIX,pubgmpdrcdn.amsoveasea.com
+  - DOMAIN-SUFFIX,updates.control.igamecj.com
+  - DOMAIN-SUFFIX,pubgm.bf.igamec.net
+  - DOMAIN-SUFFIX,gcloud.com
+  - DOMAIN-KEYWORD,pubg
+  - DOMAIN-KEYWORD,pubgm
+  - DOMAIN-KEYWORD,pubgmobile
+  - IP-CIDR,203.205.0.0/16
+  - IP-CIDR,182.254.0.0/16
+  - IP-CIDR,52.83.0.0/16
+  - IP-CIDR,47.246.0.0/16
+  - USER-AGENT,PUBG*.*

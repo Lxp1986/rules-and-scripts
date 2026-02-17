@@ -1,4 +1,6 @@
-# Bigolive 相關域名
+# NAME: bigo
+# AUTHOR: Lxp1986
+# UPDATED: 2026-02-17
 DOMAIN-SUFFIX,bigo.tv
 DOMAIN-SUFFIX,bigovideo.tv
 DOMAIN-SUFFIX,bigo.sg
@@ -7,23 +9,15 @@ DOMAIN-SUFFIX,bigolivehost.com
 DOMAIN-SUFFIX,bigovideo.vip
 DOMAIN-SUFFIX,like.video
 DOMAIN-SUFFIX,likee.video
-
-# API 與資源伺服器
 DOMAIN-SUFFIX,bigovcdn.com
 DOMAIN-SUFFIX,bigosearch.com
-DOMAIN-SUFFIX,bigoeng.com,proxy
+DOMAIN-SUFFIX,bigoeng.com
 DOMAIN-SUFFIX,bigolivemall.com
 DOMAIN-SUFFIX,bigocdn.me
-
-# 特定 IP 規則（Bigolive CDN 伺服器）
+DOMAIN-KEYWORD,bigo
 IP-CIDR,161.189.0.0/16
 IP-CIDR,47.246.0.0/16
 IP-CIDR,123.60.0.0/16
-
-# 自動代理判斷
-DOMAIN-KEYWORD,bigo
-
-# 加強代理規則 (其他可能相關嘅 IP 段)
 IP-CIDR,103.80.0.0/16
 IP-CIDR,120.52.0.0/16
 IP-CIDR,104.193.88.0/21
