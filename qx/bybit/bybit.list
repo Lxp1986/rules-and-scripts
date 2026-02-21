@@ -1,0 +1,41 @@
+# NAME: bybit
+# AUTHOR: Lxp1986
+# UPDATED: 2026-02-17
+HOST-SUFFIX,bybit.com
+HOST-SUFFIX,www.bybit.com
+HOST-SUFFIX,sg.bybit.com
+HOST-SUFFIX,api.bybit.com
+HOST-SUFFIX,api-testnet.bybit.com
+HOST-SUFFIX,api-demo.bybit.com
+HOST-SUFFIX,stream.bybit.com
+HOST-SUFFIX,stream-testnet.bybit.com
+HOST-SUFFIX,stream-demo.bybit.com
+HOST-SUFFIX,bytick.com
+HOST-SUFFIX,api.bytick.com
+HOST-SUFFIX,bybitglobal.com
+HOST-SUFFIX,bybit-global.com
+HOST-SUFFIX,bybit.nl
+HOST-SUFFIX,bybit-tr.com
+HOST-SUFFIX,bybit.kz
+HOST-SUFFIX,bybitgeorgia.ge
+HOST-SUFFIX,bybit.ae
+HOST-SUFFIX,bybit.eu
+HOST-SUFFIX,bycsi.com
+HOST-SUFFIX,bitverse.zone
+HOST-SUFFIX,api.bitverse.zone
+HOST-SUFFIX,bybit.biz
+HOST-SUFFIX,byapps.net
+HOST-SUFFIX,bybdc6.com
+HOST-SUFFIX,ws2.bybdc6.com
+HOST-SUFFIX,byabcde.com
+HOST-SUFFIX,ws2.byabcde.com
+HOST-SUFFIX,byd3c3.com
+HOST-SUFFIX,bybit.cloud
+HOST-SUFFIX,inapps.appsflyer.com
+HOST-KEYWORD,byapps
+HOST-KEYWORD,bybit
+HOST-KEYWORD,bybdc
+HOST-KEYWORD,bitverse
+HOST-KEYWORD,bycsi
+HOST-KEYWORD,byabcde
+USER-AGENT,BYBIT*

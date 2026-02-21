@@ -1,0 +1,16 @@
+# NAME: apple_arcade
+# AUTHOR: Lxp1986
+# UPDATED: 2026-02-17
+HOST-KEYWORD,gamecenter
+HOST-SUFFIX,apple.com
+HOST-SUFFIX,icloud.com
+HOST-SUFFIX,mzstatic.com
+HOST-SUFFIX,apple-dns.net
+HOST-SUFFIX,cdn-apple.com
+HOST-SUFFIX,itunes.apple.com
+HOST-SUFFIX,apps.apple.com
+HOST-SUFFIX,amp-api-edge.apps.apple.com
+HOST-SUFFIX,play.itunes.apple.com
+HOST-SUFFIX,guzzoni.apple.com
+HOST-SUFFIX,push.apple.com
+HOST-SUFFIX,api.smoot.apple.com

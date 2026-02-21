@@ -1,0 +1,18 @@
+# NAME: apple_arcade
+# AUTHOR: Lxp1986
+# UPDATED: 2026-02-17
+
+rules:
+  - DOMAIN-KEYWORD,gamecenter
+  - DOMAIN-SUFFIX,apple.com
+  - DOMAIN-SUFFIX,icloud.com
+  - DOMAIN-SUFFIX,mzstatic.com
+  - DOMAIN-SUFFIX,apple-dns.net
+  - DOMAIN-SUFFIX,cdn-apple.com
+  - DOMAIN-SUFFIX,itunes.apple.com
+  - DOMAIN-SUFFIX,apps.apple.com
+  - DOMAIN-SUFFIX,amp-api-edge.apps.apple.com
+  - DOMAIN-SUFFIX,play.itunes.apple.com
+  - DOMAIN-SUFFIX,guzzoni.apple.com
+  - DOMAIN-SUFFIX,push.apple.com
+  - DOMAIN-SUFFIX,api.smoot.apple.com
