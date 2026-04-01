@@ -1,0 +1,3 @@
+# Canonical source for official ComfyUI services.
+# Covers Comfy account, cloud, registry, docs, and API endpoints.
+DOMAIN-SUFFIX,comfy.org

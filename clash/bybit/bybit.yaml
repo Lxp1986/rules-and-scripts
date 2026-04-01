@@ -1,6 +1,6 @@
 # NAME: bybit
 # AUTHOR: Lxp1986
-# UPDATED: 2026-02-17
+# UPDATED: 2026-04-01
 
 rules:
   - DOMAIN-SUFFIX,bybit.com
