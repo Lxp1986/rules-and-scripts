@@ -1,0 +1,6 @@
+# NAME: comfyui
+# AUTHOR: Lxp1986
+# UPDATED: 2026-04-01
+
+rules:
+  - DOMAIN-SUFFIX,comfy.org

@@ -31,7 +31,7 @@
 
 ## 维护方式（重要）
 
-1. 只修改 `sources/bybit.rules`、`sources/gate.rules`、`sources/apple_arcade.rules`
+1. 只修改 `sources/*.rules`
 2. 运行：
 
 ```bash
