@@ -1,0 +1,38 @@
+# Canonical source for Ovital Map (奥维互动地图) rules.
+# Keep one rule per line using DOMAIN-* / USER-AGENT syntax.
+# Derived from capture hosts + public DNS for ovital / geo-compass / siweiearth.
+
+# --- Official brand domains ---
+DOMAIN-SUFFIX,ovital.com
+DOMAIN-SUFFIX,www.ovital.com
+DOMAIN-SUFFIX,download.ovital.com
+DOMAIN-SUFFIX,help.ovital.com
+DOMAIN-SUFFIX,cloud.ovital.com
+DOMAIN-SUFFIX,gps.ovital.com
+DOMAIN-SUFFIX,cdn.ovital.com
+DOMAIN-SUFFIX,maps.ovital.com
+DOMAIN-SUFFIX,alt1.ovital.com
+DOMAIN-SUFFIX,alt2.ovital.com
+
+# --- Map tile / imagery services (from capture) ---
+DOMAIN-SUFFIX,geo-compass.com
+DOMAIN-SUFFIX,www.geo-compass.com
+DOMAIN-SUFFIX,omap.geo-compass.com
+DOMAIN-SUFFIX,map.geo-compass.com
+DOMAIN-SUFFIX,api.geo-compass.com
+DOMAIN-SUFFIX,tile.geo-compass.com
+DOMAIN-SUFFIX,siweiearth.com
+DOMAIN-SUFFIX,www.siweiearth.com
+DOMAIN-SUFFIX,aoweiservice.siweiearth.com
+
+# --- Related brand / CN sites ---
+DOMAIN-SUFFIX,omap.cn
+DOMAIN-SUFFIX,www.omap.cn
+DOMAIN-SUFFIX,aowei.com
+DOMAIN-SUFFIX,www.aowei.com
+
+# --- Catch-all ---
+DOMAIN-KEYWORD,ovital
+DOMAIN-KEYWORD,aowei
+DOMAIN-KEYWORD,geo-compass
+DOMAIN-KEYWORD,siweiearth

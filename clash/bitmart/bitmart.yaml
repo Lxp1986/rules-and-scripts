@@ -6,6 +6,8 @@ rules:
   - DOMAIN-SUFFIX,bitmart.com
   - DOMAIN-SUFFIX,bitmart.site
   - DOMAIN-SUFFIX,bitmart.io
+  - DOMAIN-SUFFIX,snidefender.com
+  - DOMAIN-SUFFIX,openc.pro
   - DOMAIN-SUFFIX,www.bitmart.com
   - DOMAIN-SUFFIX,h5.bitmart.com
   - DOMAIN-SUFFIX,news.bitmart.com
@@ -19,6 +21,7 @@ rules:
   - DOMAIN-SUFFIX,static.bitmart.com
   - DOMAIN-SUFFIX,static1.bitmart.com
   - DOMAIN-SUFFIX,img.bitmart.com
+  - DOMAIN-SUFFIX,bmstaticfiles.oss-accelerate.aliyuncs.com
   - DOMAIN-SUFFIX,api.bitmart.com
   - DOMAIN-SUFFIX,api-app.bitmart.com
   - DOMAIN-SUFFIX,api-app2.bitmart.com
@@ -26,9 +29,27 @@ rules:
   - DOMAIN-SUFFIX,api-cloud-v2.bitmart.com
   - DOMAIN-SUFFIX,api-ws.bitmart.com
   - DOMAIN-SUFFIX,contract-v2.bitmart.com
+  - DOMAIN-SUFFIX,www.snidefender.com
+  - DOMAIN-SUFFIX,api.snidefender.com
+  - DOMAIN-SUFFIX,api-app2.snidefender.com
+  - DOMAIN-SUFFIX,api-img.snidefender.com
+  - DOMAIN-SUFFIX,api-app-web3.snidefender.com
+  - DOMAIN-SUFFIX,web3.snidefender.com
+  - DOMAIN-SUFFIX,web3-onchain-market.snidefender.com
+  - DOMAIN-SUFFIX,contract-v2.snidefender.com
+  - DOMAIN-SUFFIX,contract-simulation.snidefender.com
+  - DOMAIN-SUFFIX,derivatives.snidefender.com
+  - DOMAIN-SUFFIX,affiliate-next.snidefender.com
+  - DOMAIN-SUFFIX,logan.snidefender.com
+  - DOMAIN-SUFFIX,sentryingest-v2.snidefender.com
   - DOMAIN-SUFFIX,ws-manager-compress.bitmart.com
   - DOMAIN-SUFFIX,openapi-ws-v2.bitmart.com
   - DOMAIN-SUFFIX,contract-ws-v2.bitmart.com
+  - DOMAIN-SUFFIX,ws-manager-compress.snidefender.com
+  - DOMAIN-SUFFIX,contract-ws-v2.snidefender.com
+  - DOMAIN-SUFFIX,contract-ws-simulation.snidefender.com
+  - DOMAIN-SUFFIX,api.openc.pro
+  - DOMAIN-SUFFIX,transfer.openc.pro
   - DOMAIN-SUFFIX,datasink.bitmart.site
   - DOMAIN-SUFFIX,datawind.bitmart.site
   - DOMAIN-SUFFIX,engagelab.cc
@@ -37,5 +58,9 @@ rules:
   - DOMAIN-SUFFIX,snitools.com
   - DOMAIN-SUFFIX,cloud-config.snitools.com
   - DOMAIN-SUFFIX,sg-light-edge.com
+  - DOMAIN-SUFFIX,appsflyersdk.com
+  - DOMAIN-KEYWORD,dnbijd
+  - IP-CIDR,115.29.197.113/32
   - DOMAIN-KEYWORD,bitmart
+  - DOMAIN-KEYWORD,snidefender
   - USER-AGENT,BitMart*

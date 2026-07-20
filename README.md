@@ -31,7 +31,7 @@
 
 ## 维护方式（重要）
 
-1. 只修改 `sources/*.rules`（例如 `sources/bybit.rules`、`sources/gate.rules`、`sources/bitmart.rules`）
+1. 只修改 `sources/*.rules`（例如 `sources/bybit.rules`、`sources/gate.rules`、`sources/bitmart.rules`、`sources/ovital.rules`）
 2. 运行：
 
 ```bash
