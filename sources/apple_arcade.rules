@@ -1,0 +1,15 @@
+# Canonical source for Apple Arcade and core Apple gaming services.
+# Place these rules above GEOIP,CN and FINAL in your client.
+DOMAIN-KEYWORD,gamecenter
+DOMAIN-SUFFIX,apple.com
+DOMAIN-SUFFIX,icloud.com
+DOMAIN-SUFFIX,mzstatic.com
+DOMAIN-SUFFIX,apple-dns.net
+DOMAIN-SUFFIX,cdn-apple.com
+DOMAIN-SUFFIX,itunes.apple.com
+DOMAIN-SUFFIX,apps.apple.com
+DOMAIN-SUFFIX,amp-api-edge.apps.apple.com
+DOMAIN-SUFFIX,play.itunes.apple.com
+DOMAIN-SUFFIX,guzzoni.apple.com
+DOMAIN-SUFFIX,push.apple.com
+DOMAIN-SUFFIX,api.smoot.apple.com

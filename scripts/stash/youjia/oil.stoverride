@@ -1,0 +1,11 @@
+name: 今日油价
+desc: 复制本内容到自己的库。在 argument 中填写 provname 和 apikey；provname 不带“省”字。
+icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Luffy.png
+tiles:
+  - name: youjia
+    icon: 'car'
+    backgroundColor: '#c932a9'
+    argument: 'provname=广东&apikey=替换为你的天行key'
+script-providers:
+  youjia:
+    url: https://raw.githubusercontent.com/Lxp1986/rules-and-scripts/refs/heads/master/scripts/stash/youjia/oil.js

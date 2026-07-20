@@ -1,0 +1,89 @@
+# Canonical source for BitMart rules.
+# Keep one rule per line using DOMAIN-* / USER-AGENT / IP-CIDR syntax.
+# Sources: BitMart iOS captures, official Python SDK (cloud_consts), CCXT, public DNS (1.1.1.1).
+#
+# Note: DOMAIN-SUFFIX,bitmart.com already covers most *.bitmart.com hosts.
+# Important endpoints are still listed explicitly for readability and maintenance.
+
+# --- Roots ---
+DOMAIN-SUFFIX,bitmart.com
+DOMAIN-SUFFIX,bitmart.site
+DOMAIN-SUFFIX,bitmart.io
+DOMAIN-SUFFIX,snidefender.com
+DOMAIN-SUFFIX,openc.pro
+
+# --- Website / H5 / docs / status ---
+DOMAIN-SUFFIX,www.bitmart.com
+DOMAIN-SUFFIX,h5.bitmart.com
+DOMAIN-SUFFIX,news.bitmart.com
+DOMAIN-SUFFIX,web3.bitmart.com
+DOMAIN-SUFFIX,affiliate.bitmart.com
+DOMAIN-SUFFIX,status.bitmart.com
+DOMAIN-SUFFIX,developer.bitmart.com
+DOMAIN-SUFFIX,developer-pro.bitmart.com
+DOMAIN-SUFFIX,support.bitmart.com
+DOMAIN-SUFFIX,bitmart.zendesk.com
+
+# --- Static / image CDN ---
+DOMAIN-SUFFIX,static.bitmart.com
+DOMAIN-SUFFIX,static1.bitmart.com
+DOMAIN-SUFFIX,img.bitmart.com
+DOMAIN-SUFFIX,bmstaticfiles.oss-accelerate.aliyuncs.com
+
+# --- App / REST API (bitmart.com) ---
+DOMAIN-SUFFIX,api.bitmart.com
+DOMAIN-SUFFIX,api-app.bitmart.com
+DOMAIN-SUFFIX,api-app2.bitmart.com
+DOMAIN-SUFFIX,api-cloud.bitmart.com
+DOMAIN-SUFFIX,api-cloud-v2.bitmart.com
+DOMAIN-SUFFIX,api-ws.bitmart.com
+DOMAIN-SUFFIX,contract-v2.bitmart.com
+
+# --- App / REST API (snidefender.com alternate stack from iOS capture) ---
+DOMAIN-SUFFIX,www.snidefender.com
+DOMAIN-SUFFIX,api.snidefender.com
+DOMAIN-SUFFIX,api-app2.snidefender.com
+DOMAIN-SUFFIX,api-img.snidefender.com
+DOMAIN-SUFFIX,api-app-web3.snidefender.com
+DOMAIN-SUFFIX,web3.snidefender.com
+DOMAIN-SUFFIX,web3-onchain-market.snidefender.com
+DOMAIN-SUFFIX,contract-v2.snidefender.com
+DOMAIN-SUFFIX,contract-simulation.snidefender.com
+DOMAIN-SUFFIX,derivatives.snidefender.com
+DOMAIN-SUFFIX,affiliate-next.snidefender.com
+DOMAIN-SUFFIX,logan.snidefender.com
+DOMAIN-SUFFIX,sentryingest-v2.snidefender.com
+
+# --- WebSocket ---
+DOMAIN-SUFFIX,ws-manager-compress.bitmart.com
+DOMAIN-SUFFIX,openapi-ws-v2.bitmart.com
+DOMAIN-SUFFIX,contract-ws-v2.bitmart.com
+DOMAIN-SUFFIX,ws-manager-compress.snidefender.com
+DOMAIN-SUFFIX,contract-ws-v2.snidefender.com
+DOMAIN-SUFFIX,contract-ws-simulation.snidefender.com
+
+# --- Transfer / deposit helper ---
+DOMAIN-SUFFIX,api.openc.pro
+DOMAIN-SUFFIX,transfer.openc.pro
+
+# --- App analytics (BitMart-owned) ---
+DOMAIN-SUFFIX,datasink.bitmart.site
+DOMAIN-SUFFIX,datawind.bitmart.site
+
+# --- App third-party deps (from capture; hosts do not contain "bitmart") ---
+DOMAIN-SUFFIX,engagelab.cc
+DOMAIN-SUFFIX,push.api.engagelab.cc
+DOMAIN-SUFFIX,pushstat.api.engagelab.cc
+DOMAIN-SUFFIX,snitools.com
+DOMAIN-SUFFIX,cloud-config.snitools.com
+DOMAIN-SUFFIX,sg-light-edge.com
+DOMAIN-SUFFIX,appsflyersdk.com
+DOMAIN-KEYWORD,dnbijd
+
+# --- Custom DNS resolver used by BitMart app (DoH-like /resolve) ---
+IP-CIDR,115.29.197.113/32
+
+# --- Catch-all / client identity ---
+DOMAIN-KEYWORD,bitmart
+DOMAIN-KEYWORD,snidefender
+USER-AGENT,BitMart*
