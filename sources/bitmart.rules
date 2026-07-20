@@ -1,29 +1,58 @@
 # Canonical source for BitMart rules.
 # Keep one rule per line using DOMAIN-* / USER-AGENT syntax.
-# Derived from BitMart iOS app capture (564 requests) + known public endpoints.
+# Sources: BitMart iOS capture, official Python SDK (cloud_consts), CCXT, public DNS (1.1.1.1).
+#
+# Note: DOMAIN-SUFFIX,bitmart.com already covers most *.bitmart.com hosts.
+# Important endpoints are still listed explicitly for readability and maintenance.
+
+# --- Roots ---
 DOMAIN-SUFFIX,bitmart.com
+DOMAIN-SUFFIX,bitmart.site
+DOMAIN-SUFFIX,bitmart.io
+
+# --- Website / H5 / docs / status ---
 DOMAIN-SUFFIX,www.bitmart.com
+DOMAIN-SUFFIX,h5.bitmart.com
+DOMAIN-SUFFIX,news.bitmart.com
+DOMAIN-SUFFIX,web3.bitmart.com
+DOMAIN-SUFFIX,affiliate.bitmart.com
+DOMAIN-SUFFIX,status.bitmart.com
+DOMAIN-SUFFIX,developer.bitmart.com
+DOMAIN-SUFFIX,developer-pro.bitmart.com
+DOMAIN-SUFFIX,support.bitmart.com
+DOMAIN-SUFFIX,bitmart.zendesk.com
+
+# --- Static / image CDN ---
+DOMAIN-SUFFIX,static.bitmart.com
+DOMAIN-SUFFIX,static1.bitmart.com
+DOMAIN-SUFFIX,img.bitmart.com
+
+# --- App / REST API ---
 DOMAIN-SUFFIX,api.bitmart.com
+DOMAIN-SUFFIX,api-app.bitmart.com
 DOMAIN-SUFFIX,api-app2.bitmart.com
 DOMAIN-SUFFIX,api-cloud.bitmart.com
-DOMAIN-SUFFIX,cloud.bitmart.com
-DOMAIN-SUFFIX,open-api.bitmart.com
+DOMAIN-SUFFIX,api-cloud-v2.bitmart.com
+DOMAIN-SUFFIX,api-ws.bitmart.com
 DOMAIN-SUFFIX,contract-v2.bitmart.com
-DOMAIN-SUFFIX,contract-ws-v2.bitmart.com
+
+# --- WebSocket (spot / futures / contract) ---
 DOMAIN-SUFFIX,ws-manager-compress.bitmart.com
-DOMAIN-SUFFIX,websocket-manager.bitmart.com
-DOMAIN-SUFFIX,static1.bitmart.com
-DOMAIN-SUFFIX,h5.bitmart.com
-DOMAIN-SUFFIX,support.bitmart.com
-DOMAIN-SUFFIX,bitmart.site
+DOMAIN-SUFFIX,openapi-ws-v2.bitmart.com
+DOMAIN-SUFFIX,contract-ws-v2.bitmart.com
+
+# --- App analytics (BitMart-owned) ---
 DOMAIN-SUFFIX,datasink.bitmart.site
 DOMAIN-SUFFIX,datawind.bitmart.site
-DOMAIN-SUFFIX,bitmart.io
-DOMAIN-SUFFIX,api.bitmart.io
+
+# --- App third-party deps (from capture; hosts do not contain "bitmart") ---
 DOMAIN-SUFFIX,engagelab.cc
+DOMAIN-SUFFIX,push.api.engagelab.cc
 DOMAIN-SUFFIX,pushstat.api.engagelab.cc
 DOMAIN-SUFFIX,snitools.com
 DOMAIN-SUFFIX,cloud-config.snitools.com
 DOMAIN-SUFFIX,sg-light-edge.com
+
+# --- Catch-all / client identity ---
 DOMAIN-KEYWORD,bitmart
 USER-AGENT,BitMart*
