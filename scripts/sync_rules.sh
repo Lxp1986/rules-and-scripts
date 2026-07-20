@@ -5,7 +5,7 @@ ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 DATE="$(date +%Y-%m-%d)"
 BASE_URL="https://raw.githubusercontent.com/Lxp1986/rules-and-scripts/refs/heads/master"
 
-RULES=(bybit gate pubgm bigo apple_arcade)
+RULES=(bybit gate pubgm bigo apple_arcade bitmart)
 
 normalize_rules() {
   local src="$1"
@@ -56,8 +56,8 @@ write_clash_yaml() {
 
 rules:
 EOT
-  while IFS= read -r rule; do
-    printf '  - %s\n' "$rule" >> "$out"
+  while IFS= read -r line; do
+    printf '  - %s\n' "$line" >> "$out"
   done < <(normalize_rules "$src")
 }
 

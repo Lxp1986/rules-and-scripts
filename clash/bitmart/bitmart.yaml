@@ -1,0 +1,31 @@
+# NAME: bitmart
+# AUTHOR: Lxp1986
+# UPDATED: 2026-07-20
+
+rules:
+  - DOMAIN-SUFFIX,bitmart.com
+  - DOMAIN-SUFFIX,www.bitmart.com
+  - DOMAIN-SUFFIX,api.bitmart.com
+  - DOMAIN-SUFFIX,api-app2.bitmart.com
+  - DOMAIN-SUFFIX,api-cloud.bitmart.com
+  - DOMAIN-SUFFIX,cloud.bitmart.com
+  - DOMAIN-SUFFIX,open-api.bitmart.com
+  - DOMAIN-SUFFIX,contract-v2.bitmart.com
+  - DOMAIN-SUFFIX,contract-ws-v2.bitmart.com
+  - DOMAIN-SUFFIX,ws-manager-compress.bitmart.com
+  - DOMAIN-SUFFIX,websocket-manager.bitmart.com
+  - DOMAIN-SUFFIX,static1.bitmart.com
+  - DOMAIN-SUFFIX,h5.bitmart.com
+  - DOMAIN-SUFFIX,support.bitmart.com
+  - DOMAIN-SUFFIX,bitmart.site
+  - DOMAIN-SUFFIX,datasink.bitmart.site
+  - DOMAIN-SUFFIX,datawind.bitmart.site
+  - DOMAIN-SUFFIX,bitmart.io
+  - DOMAIN-SUFFIX,api.bitmart.io
+  - DOMAIN-SUFFIX,engagelab.cc
+  - DOMAIN-SUFFIX,pushstat.api.engagelab.cc
+  - DOMAIN-SUFFIX,snitools.com
+  - DOMAIN-SUFFIX,cloud-config.snitools.com
+  - DOMAIN-SUFFIX,sg-light-edge.com
+  - DOMAIN-KEYWORD,bitmart
+  - USER-AGENT,BitMart*

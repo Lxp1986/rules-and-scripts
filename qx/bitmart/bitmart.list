@@ -1,0 +1,29 @@
+# NAME: bitmart
+# AUTHOR: Lxp1986
+# UPDATED: 2026-07-20
+HOST-SUFFIX,bitmart.com
+HOST-SUFFIX,www.bitmart.com
+HOST-SUFFIX,api.bitmart.com
+HOST-SUFFIX,api-app2.bitmart.com
+HOST-SUFFIX,api-cloud.bitmart.com
+HOST-SUFFIX,cloud.bitmart.com
+HOST-SUFFIX,open-api.bitmart.com
+HOST-SUFFIX,contract-v2.bitmart.com
+HOST-SUFFIX,contract-ws-v2.bitmart.com
+HOST-SUFFIX,ws-manager-compress.bitmart.com
+HOST-SUFFIX,websocket-manager.bitmart.com
+HOST-SUFFIX,static1.bitmart.com
+HOST-SUFFIX,h5.bitmart.com
+HOST-SUFFIX,support.bitmart.com
+HOST-SUFFIX,bitmart.site
+HOST-SUFFIX,datasink.bitmart.site
+HOST-SUFFIX,datawind.bitmart.site
+HOST-SUFFIX,bitmart.io
+HOST-SUFFIX,api.bitmart.io
+HOST-SUFFIX,engagelab.cc
+HOST-SUFFIX,pushstat.api.engagelab.cc
+HOST-SUFFIX,snitools.com
+HOST-SUFFIX,cloud-config.snitools.com
+HOST-SUFFIX,sg-light-edge.com
+HOST-KEYWORD,bitmart
+USER-AGENT,BitMart*
