@@ -32,7 +32,7 @@
 
 ## 维护方式（重要）
 
-1. 只修改 `sources/*.rules`（例如 `sources/bybit.rules`、`sources/gate.rules`、`sources/bitmart.rules`、`sources/ovital.rules`、`sources/metamask.rules`）
+1. 只修改 `sources/*.rules`（例如 `sources/bybit.rules`、`sources/gate.rules`、`sources/bitmart.rules`、`sources/ovital.rules`、`sources/metamask.rules`、`sources/muse.rules`）
 2. 运行：
 
 ```bash
@@ -68,3 +68,12 @@ https://raw.githubusercontent.com/Lxp1986/rules-and-scripts/refs/heads/master/lo
 覆盖 MetaMask 官方域、Infura、Card 网页入口、Crypto Life 管理页、支持的链及常见第三方 RPC 域名。自定义 RPC、内置浏览器访问的任意 dApp、随时变化的 KYC 服务需按 Loon 请求记录补充。代理不会改变 MetaMask Card 的地区资格，也不负责实体卡/Apple Pay 的支付网络。Card 网站请从 MetaMask App 或 Portfolio 官方入口进入，不要仅凭本规则认定某链接安全。
 
 参考：https://support.metamask.io/trade/metamask-card/getting-started-with-card/ 、https://support.metamask.io/trade/metamask-card/managing/ 、https://nsloon.app/docs/Rule/sub_rule/
+
+## Meta Muse 智能体
+
+Loon 订阅地址：
+https://raw.githubusercontent.com/Lxp1986/rules-and-scripts/refs/heads/master/loon/muse/muse.list
+
+在 Loon 的 [Remote Rule] 中使用该 URL，并选择自己的代理策略组。规则覆盖官方 Muse 网站及其子域名 `muse.ai`。Muse 的浏览器和第三方连接器在云端 VM 中执行，设备规则不需要囊括这些目标网站。Meta 账号登录所用的其他域名取决于登录方式；如登录仍无法连接，请从 Loon 请求记录中确认域名后再补充。
+
+参考：https://ai.meta.com/muse/ 、https://www.meta.com/help/artificial-intelligence/1331373868832401/ 、https://www.meta.com/help/artificial-intelligence/1687253048996149/ 、https://nsloon.app/docs/Rule/sub_rule/
