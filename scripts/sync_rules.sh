@@ -57,7 +57,7 @@ write_clash_yaml() {
 rules:
 EOT
   while IFS= read -r line; do
-    printf '  - %s\\n' "$line" >> "$out"
+    printf '  - %s\n' "$line" >> "$out"
   done < <(normalize_rules "$src")
 }
 
