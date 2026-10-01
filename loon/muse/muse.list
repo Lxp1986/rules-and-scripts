@@ -1,4 +1,23 @@
 # NAME: muse
 # AUTHOR: Lxp1986
-# UPDATED: 2026-10-01
+# UPDATED: 2026-10-02
+DOMAIN-SUFFIX,meta.ai
 DOMAIN-SUFFIX,muse.ai
+DOMAIN-SUFFIX,meta.com
+DOMAIN-SUFFIX,metaaivm.com
+DOMAIN-SUFFIX,hatch.one
+DOMAIN-SUFFIX,willow606.com
+DOMAIN-SUFFIX,ecto1.ai
+DOMAIN-SUFFIX,facebook.com
+DOMAIN-SUFFIX,facebook.net
+DOMAIN-SUFFIX,fbcdn.net
+DOMAIN,meta-ohttp-relay-prod.fastly-edge.com
+DOMAIN,meta-ohttp-relay-dev.fastly-edge.com
+DOMAIN,meta-ohttp-config-prod.fastly-edge.com
+DOMAIN,meta.privacy-gateway.cloudflare.com
+DOMAIN,meta.hpke-keys.privacy-gateway.cloudflare.com
+DOMAIN-SUFFIX,whatsapp.com
+DOMAIN-SUFFIX,whatsapp.net
+DOMAIN-SUFFIX,stripe.com
+DOMAIN-SUFFIX,mapbox.com
+DOMAIN-SUFFIX,maptiler.com
