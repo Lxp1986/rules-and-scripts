@@ -1,0 +1,5 @@
+# Canonical source for Meta Muse, the personal AI agent.
+# Muse's official app/web service is documented at muse.ai; include the domain and its subdomains.
+# Agent browsing and Connectors run in Muse's cloud VM, so their destination domains are not app-device rules.
+# Meta Account sign-in hosts vary by flow; add observed hosts from Loon request logs instead of guessing.
+DOMAIN-SUFFIX,muse.ai

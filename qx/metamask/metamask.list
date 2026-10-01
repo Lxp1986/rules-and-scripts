@@ -1,0 +1,22 @@
+# NAME: metamask
+# AUTHOR: Lxp1986
+# UPDATED: 2026-09-28
+HOST-SUFFIX,metamask.io
+HOST-SUFFIX,infura.io
+HOST-SUFFIX,infura-ipfs.io
+DOMAIN,metamask.withcl.com
+DOMAIN,secure.baanx.co.uk
+HOST-SUFFIX,linea.build
+HOST-SUFFIX,base.org
+HOST-SUFFIX,monad.xyz
+HOST-SUFFIX,solana.com
+HOST-SUFFIX,alchemy.com
+HOST-SUFFIX,alchemyapi.io
+HOST-SUFFIX,ankr.com
+HOST-SUFFIX,quiknode.pro
+HOST-SUFFIX,quicknode.com
+HOST-SUFFIX,chainstack.com
+HOST-SUFFIX,drpc.org
+HOST-SUFFIX,publicnode.com
+HOST-SUFFIX,helius-rpc.com
+HOST-SUFFIX,helius.dev

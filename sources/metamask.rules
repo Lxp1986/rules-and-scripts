@@ -1,0 +1,30 @@
+# Canonical source for MetaMask wallet and MetaMask Card.
+# Domain routing only. Add custom RPC, dapp and KYC hosts from Loon request logs as needed.
+# Card eligibility is decided by the provider; a proxy does not change it.
+
+# MetaMask app, Portfolio, Card entry and API (includes api.cx.metamask.io).
+DOMAIN-SUFFIX,metamask.io
+DOMAIN-SUFFIX,infura.io
+DOMAIN-SUFFIX,infura-ipfs.io
+
+# MetaMask Card web dashboard / Crypto Life and published privacy host.
+DOMAIN,metamask.withcl.com
+DOMAIN,secure.baanx.co.uk
+
+# Card-supported networks' official sites and common public RPC domains.
+DOMAIN-SUFFIX,linea.build
+DOMAIN-SUFFIX,base.org
+DOMAIN-SUFFIX,monad.xyz
+DOMAIN-SUFFIX,solana.com
+
+# Optional third-party RPC infrastructure often configured in wallets.
+DOMAIN-SUFFIX,alchemy.com
+DOMAIN-SUFFIX,alchemyapi.io
+DOMAIN-SUFFIX,ankr.com
+DOMAIN-SUFFIX,quiknode.pro
+DOMAIN-SUFFIX,quicknode.com
+DOMAIN-SUFFIX,chainstack.com
+DOMAIN-SUFFIX,drpc.org
+DOMAIN-SUFFIX,publicnode.com
+DOMAIN-SUFFIX,helius-rpc.com
+DOMAIN-SUFFIX,helius.dev

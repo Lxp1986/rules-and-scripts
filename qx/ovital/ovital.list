@@ -1,0 +1,30 @@
+# NAME: ovital
+# AUTHOR: Lxp1986
+# UPDATED: 2026-07-20
+HOST-SUFFIX,ovital.com
+HOST-SUFFIX,www.ovital.com
+HOST-SUFFIX,download.ovital.com
+HOST-SUFFIX,help.ovital.com
+HOST-SUFFIX,cloud.ovital.com
+HOST-SUFFIX,gps.ovital.com
+HOST-SUFFIX,cdn.ovital.com
+HOST-SUFFIX,maps.ovital.com
+HOST-SUFFIX,alt1.ovital.com
+HOST-SUFFIX,alt2.ovital.com
+HOST-SUFFIX,geo-compass.com
+HOST-SUFFIX,www.geo-compass.com
+HOST-SUFFIX,omap.geo-compass.com
+HOST-SUFFIX,map.geo-compass.com
+HOST-SUFFIX,api.geo-compass.com
+HOST-SUFFIX,tile.geo-compass.com
+HOST-SUFFIX,siweiearth.com
+HOST-SUFFIX,www.siweiearth.com
+HOST-SUFFIX,aoweiservice.siweiearth.com
+HOST-SUFFIX,omap.cn
+HOST-SUFFIX,www.omap.cn
+HOST-SUFFIX,aowei.com
+HOST-SUFFIX,www.aowei.com
+HOST-KEYWORD,ovital
+HOST-KEYWORD,aowei
+HOST-KEYWORD,geo-compass
+HOST-KEYWORD,siweiearth
