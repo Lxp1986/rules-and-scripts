@@ -3,7 +3,7 @@ set -euo pipefail
 
 ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 DATE="$(date +%Y-%m-%d)"
-BASE_URL="https://raw.githubusercontent.com/Lxp1986/rules-and-scripts/refs/heads/master"
+BASE_URL="https://raw.githubusercontent.com/Lxp1986/rules-and-scripts/master"
 
 RULES=(bybit gate pubgm bigo apple_arcade bitmart ovital metamask muse)
 STASH_ONLY_RULES=(moltbook runninghub)
