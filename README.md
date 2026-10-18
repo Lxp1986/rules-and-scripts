@@ -46,6 +46,8 @@
 - 各客户端内容一致
 - Clash 文件统一为 `rules:` YAML 格式
 
+以下个人 Stash 规则仅包含域名匹配，可用于 iOS；源文件为 `sources/moltbook.rules`、`sources/runninghub.rules`，脚本会生成对应的 Stash 订阅文件。iOS 不使用进程名匹配规则。
+
 ## Stash 油价脚本
 
 - 文件：`scripts/stash/youjia/oil.js`

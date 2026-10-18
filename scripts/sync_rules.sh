@@ -6,6 +6,7 @@ DATE="$(date +%Y-%m-%d)"
 BASE_URL="https://raw.githubusercontent.com/Lxp1986/rules-and-scripts/refs/heads/master"
 
 RULES=(bybit gate pubgm bigo apple_arcade bitmart ovital metamask muse)
+STASH_ONLY_RULES=(moltbook runninghub)
 
 normalize_rules() {
   local src="$1"
@@ -122,6 +123,18 @@ for rule in "${RULES[@]}"; do
   write_clash_yaml "$src" "$clash_file" "$rule"
   write_rule_readme "$clash_dir/README.md" "Clash - $rule" "$BASE_URL/clash/$rule/${rule}.yaml"
 
+done
+
+# These personal domain rules are maintained for the Stash profile and are
+# intentionally emitted only in Stash format.
+for rule in "${STASH_ONLY_RULES[@]}"; do
+  src="$ROOT_DIR/sources/${rule}.rules"
+  ensure_source "$src"
+
+  stash_dir="$ROOT_DIR/stash/$rule"
+  stash_file="$stash_dir/${rule}.list"
+  write_list "$src" "$stash_file" "$rule"
+  write_rule_readme "$stash_dir/README.md" "Stash - $rule" "$BASE_URL/stash/$rule/${rule}.list"
 done
 
 echo "Rules synced successfully."
